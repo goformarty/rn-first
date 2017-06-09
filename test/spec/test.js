@@ -24,6 +24,12 @@
       it('converts 5 to "V"', function () {
         expect(convert(5)).toBe('V');
       });
+      it('converts 6 to "VI"', function () {
+        expect(convert(5)).toBe('V');
+      });
+      it('converts 10 to "X"', function () {
+        expect(convert(10)).toBe('X');
+      });
     });
   });
 })();

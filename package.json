@@ -26,8 +26,10 @@
     "gulp-useref": "^3.0.0",
     "jasmine-core": "^2.6.3",
     "karma": "^1.7.0",
+    "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^2.1.1",
     "karma-jasmine": "^1.1.0",
+    "karma-requirejs": "^1.1.0",
     "main-bower-files": "^2.5.0",
     "run-sequence": "^1.2.2",
     "wiredep": "^4.0.0"
@@ -44,5 +46,9 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "chai": "^4.0.2",
+    "requirejs": "^2.3.3"
   }
 }
